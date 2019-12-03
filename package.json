@@ -1,5 +1,5 @@
 {
-  "name": "best-ui",
+  "name": "@douku/best-ui",
   "version": "0.1.0",
   "private": false,
   "main": "lib/best-ui.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:lgybetter/best-ui.git"
+    "url": "git@github.com:DouKu/best-ui.git"
   },
   "keywords": [
     "best",
@@ -28,7 +28,7 @@
     "components"
   ],
   "bugs": {
-    "url": "https://github.com/lgybetter/best-ui/issues"
+    "url": "https://github.com/DouKu/best-ui/issues"
   },
   "license": "MIT",
   "unpkg": "lib/index.js",

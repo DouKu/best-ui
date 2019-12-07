@@ -5,7 +5,7 @@
       <bt-button type="primary">Send Email</bt-button>
       <bt-button type="info">Send Email</bt-button>
       <bt-button type="warn">Send Email</bt-button>
-      <bt-button type="primary" circle icon="el-icon-plus"></bt-button>
+      <bt-button type="primary" circle icon="mbri-plus"></bt-button>
       <bt-button disabled type="primary">Send Email</bt-button>
     </bt-panel>
     <bt-panel>
@@ -78,10 +78,10 @@
       </bt-pagination>
     </bt-panel>
     <bt-panel>
-      <bt-tag icon="el-icon-close">open</bt-tag>
-      <bt-tag icon="el-icon-close" type="primary">open</bt-tag>
-      <bt-tag icon="el-icon-close" type="info">open</bt-tag>
-      <bt-tag icon="el-icon-close" type="warn">open</bt-tag>
+      <bt-tag icon="mbri-close">open</bt-tag>
+      <bt-tag icon="mbri-close" type="primary">open</bt-tag>
+      <bt-tag icon="mbri-close" type="info">open</bt-tag>
+      <bt-tag icon="mbri-close" type="warn">open</bt-tag>
     </bt-panel>
     <bt-panel>
       <bt-checkbox v-model="checked">React</bt-checkbox>

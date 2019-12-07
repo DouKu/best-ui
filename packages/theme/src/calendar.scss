@@ -32,7 +32,8 @@
       i {
         background-color: $--background-color-base;
         border-radius: $--border-radius-circle;
-        padding: 2px;
+        padding: 5px;
+        font-size: 14px;
       }
       &:hover {
         color: $--color-text-tip;

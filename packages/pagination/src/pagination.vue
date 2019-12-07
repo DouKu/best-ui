@@ -6,7 +6,7 @@
           type="button"
           :class="['btn-pre', {'is-disabled': leftDisabled}]"
           @click="handlePagePre">
-          <i class="el-icon-arrow-left"></i>
+          <i class="mbri-left"></i>
         </button>
         <template v-if="showLeftOffset">
           <li v-if="showLeftOffset"
@@ -19,7 +19,7 @@
           <button type="button"
             class="btn-pager-pre"
             @click="handlePagerPre">
-            <i class="el-icon-more"></i>
+            <i class="mbri-more-horizontal"></i>
           </button>
         </template>
         <li v-for="(item, index) in pageList"
@@ -35,7 +35,7 @@
           <button type="button"
             class="btn-pager-next"
             @click="handlePagerNext">
-            <i class="el-icon-more"></i>
+            <i class="mbri-more-horizontal"></i>
           </button>
           <li
             :class="[
@@ -49,7 +49,7 @@
           type="button"
           :class="['btn-next', {'is-disabled': rightDisabled}]"
           @click="handlePageNext">
-          <i class="el-icon-arrow-right"></i>
+          <i class="mbri-right"></i>
         </button>
       </ul>
     </div>

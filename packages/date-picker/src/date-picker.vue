@@ -6,7 +6,7 @@
       @click.stop="handleClick"
       readonly>
     </bt-input>
-    <i :class="['el-icon-date', {'is-reverse': visible}]"></i>
+    <i :class="['mbri-calendar', {'is-reverse': visible}]"></i>
     <bt-calendar
       v-show="visible"
       :value="value"

@@ -8,13 +8,13 @@
           type="button"
           :class="['btn-pre']"
           @click="handleMonthPre">
-          <i class="el-icon-arrow-left"></i>
+          <i class="mbri-left"></i>
         </button>
         <button
           type="button"
           :class="['btn-next']"
           @click="handleMonthNext">
-          <i class="el-icon-arrow-right"></i>
+          <i class="mbri-right"></i>
         </button>
       </div>
     </div>

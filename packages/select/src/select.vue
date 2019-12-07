@@ -6,7 +6,7 @@
       :readonly="readonly"
       @click.stop="handleClick">
     </bt-input>
-    <i :class="['el-icon-arrow-up', {'is-reverse': visible}]"></i>
+    <i :class="['mbri-up', {'is-reverse': visible}]"></i>
     <bt-select-dropdown
       v-show="visible">
       <slot></slot>

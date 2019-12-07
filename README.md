@@ -10,7 +10,7 @@
   - [x] [Col](./packages/col) - 列布局
 
 - 导航
-  - [ ] [Menu](./packages/menu) - 左侧菜单
+  - [x] [Menu](./packages/menu) - 左侧菜单
   - [ ] [Header](./packages/header) - 头部导航
 
 - 展示
@@ -37,6 +37,7 @@
 - 交互
   - [x] [Option](./packages/option) - 下拉
   - [ ] [Dialog](./packages/dialog) - 对话框
+  - [ ] [Tip](./packages/tip) - 提示
 
 ## 开发环境
 

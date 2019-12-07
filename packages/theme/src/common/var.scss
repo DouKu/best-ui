@@ -42,15 +42,15 @@ $--large-padding-vertical: 18px !default;
 $--extra-large-padding-vertical: 20px !default;
 
 /* Color */
-$--color-primary: #5fb870 !default;
-$--color-info: #7298ff !default;
+$--color-primary: #7298ff !default;
+$--color-info: #5fb870 !default;
 $--color-white: #ffffff !default;
 $--color-warn: #ffa854 !default;
 $--color-black: #000000 !default;
 $--color-label: #d2d4d3 !default;
 $--color-danger: #f18686 !default;
 $--background-color-base: #f7f7f7 !default;
-$--link-color-base: $--color-info !default;
+$--link-color-base: $--color-primary !default;
 
 $--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default;
 $--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default;

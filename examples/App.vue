@@ -122,7 +122,7 @@
             <bt-input slot-scope="{model}" v-model="model.age"></bt-input>
           </bt-form-item>
           <bt-form-item>
-            <bt-button style="width: 100%;" type="info" @click="handleSubmit">Submit</bt-button>
+            <bt-button style="width: 100%;" type="primary" @click="handleSubmit">Submit</bt-button>
           </bt-form-item>
         </bt-form>
       </bt-panel>

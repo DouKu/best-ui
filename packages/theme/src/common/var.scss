@@ -22,7 +22,7 @@ $--index-popper: 2000 !default;
 /* BoxShadow */
 $--base-box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04) !default;
 $--panel-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !default;
-
+$--sidebar-box-shadow: 2px -2px 5px rgba(0, 0, 0, .1) !default;
 /* Padding */
 
 // base
@@ -176,3 +176,6 @@ $--radio-background-color: $--color-label !default;
 
 /* Pagination */
 $--pagination-page-button-background-color: $--color-text-regular;
+
+/* Sidebar */
+$--header-height: 60px !default;

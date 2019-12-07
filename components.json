@@ -16,5 +16,6 @@
   "table": "./packages/table",
   "table-column": "./packages/table-column",
   "tag": "./packages/tag",
+  "sidebar": "./packages/sidebar",
   "best-ui.common": "./src"
 }

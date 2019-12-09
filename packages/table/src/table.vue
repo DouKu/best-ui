@@ -1,8 +1,7 @@
 <template>
   <div class="bt-table">
     <table>
-      <div class="hidden-columns"
-        ref="hiddenColumns">
+      <div class="hidden-columns">
         <slot></slot>
       </div>
       <table-header :columns="columns"></table-header>

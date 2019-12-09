@@ -17,5 +17,7 @@
   "table-column": "./packages/table-column",
   "tag": "./packages/tag",
   "sidebar": "./packages/sidebar",
+  "tab": "./packages/tab",
+  "tab-item": "./packages/tab-item",
   "best-ui.common": "./src"
 }

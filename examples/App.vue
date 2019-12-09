@@ -114,6 +114,9 @@
         </bt-row>
       </bt-panel>
       <bt-panel>
+        <bt-tab></bt-tab>
+      </bt-panel>
+      <bt-panel>
         <bt-form :model="formModel" :rules="formRules">
           <bt-form-item label="Name" prop="name">
             <bt-input slot-scope="{model}" v-model="model.name"></bt-input>

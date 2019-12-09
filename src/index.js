@@ -17,6 +17,7 @@ import Calendar from '~/calendar'
 import DatePicker from '~/date-picker'
 import Sidebar from '~/sidebar'
 import Tab from '~/tab'
+import TabItem from '~/tab-item'
 
 const components = [
   Button,
@@ -37,7 +38,8 @@ const components = [
   Calendar,
   DatePicker,
   Sidebar,
-  Tab
+  Tab,
+  TabItem
 ]
 
 const install = function (Vue, opts = {}) {
@@ -66,5 +68,6 @@ export default {
   Calendar,
   DatePicker,
   Sidebar,
-  Tab
+  Tab,
+  TabItem
 }

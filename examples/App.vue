@@ -137,6 +137,7 @@
           </bt-col>
         </bt-row>
       </bt-panel>
+    </div>
     <div class="content-container">
       <div class="header">
         <bt-header></bt-header>

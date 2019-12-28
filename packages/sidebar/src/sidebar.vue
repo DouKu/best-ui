@@ -4,7 +4,7 @@
       <p v-if="title" class="bt-sidebar__header-title">{{title}}</p>
       <slot v-else-if="$slots.header" name="header"></slot>
       <div class="bt-sidebar__header-switch">
-        <i class="mbri-menu" @click="innerExpand = !innerExpand"></i>
+        <i class="mbri-menu" @click="handleExpand"></i>
       </div>
     </div>
     <div class="bt-sidebar__menu">
@@ -59,6 +59,10 @@ export default {
     }
   },
   methods: {
+    handleExpand () {
+      this.innerExpand = !this.innerExpand
+      this.$emit('expand', this.innerExpand)
+    },
     handleMenuClick () {
       if (this.clickHandler) {
         this.clickHandler(...arguments)

@@ -8,4 +8,14 @@
   padding: 8px 40px;
   box-shadow: $--panel-box-shadow;
   background-color: $--color-white;
+  @include e(right) {
+    float: right;
+    height: 100%;
+    white-space: nowrap
+  }
+  @include e(left) {
+    float: left;
+    height: 100%;
+    white-space: nowrap
+  }
 }

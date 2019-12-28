@@ -18,6 +18,7 @@ import DatePicker from '~/date-picker'
 import Sidebar from '~/sidebar'
 import Tab from '~/tab'
 import TabItem from '~/tab-item'
+import Header from '~/header'
 
 const components = [
   Button,
@@ -39,7 +40,8 @@ const components = [
   DatePicker,
   Sidebar,
   Tab,
-  TabItem
+  TabItem,
+  Header
 ]
 
 const install = function (Vue, opts = {}) {
@@ -69,5 +71,6 @@ export default {
   DatePicker,
   Sidebar,
   Tab,
-  TabItem
+  TabItem,
+  Header
 }

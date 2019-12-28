@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@import "common/var";
+@import "mixins/mixins";
+@import "mixins/utils";
+
+@include b(header) {
+  height: 59px;
+  padding: 8px 40px;
+  box-shadow: $--panel-box-shadow;
+  background-color: $--color-white;
+}
